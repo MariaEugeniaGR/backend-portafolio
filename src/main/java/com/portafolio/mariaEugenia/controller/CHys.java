@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/skill")
-@CrossOrigin(origins = "http://frontend-portafolio.web.app")
+@CrossOrigin(origins = "*")
 public class CHys {
     @Autowired
     SHys sHys;

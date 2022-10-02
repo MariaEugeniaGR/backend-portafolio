@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "**")
+@CrossOrigin(origins = "*")
 
 public class CProyecto {
     @Autowired
